@@ -1,0 +1,83 @@
+<svg viewBox="0 0 1600 340" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF6E4"/>
+      <stop offset="55%" stop-color="#D9ECEB"/>
+      <stop offset="100%" stop-color="#BFD9F0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="340" fill="url(#bgGrad)"/>
+
+  <!-- Decorative cream blob, top-left -->
+  <path d="M0,0 L420,0 C400,70 330,110 250,95 C160,78 90,40 0,55 Z" fill="#F3EFE3" opacity="0.85"/>
+
+  <!-- Decorative dot cluster, top-left -->
+  <g fill="#4A6339">
+    <circle cx="40" cy="18" r="5"/>
+    <circle cx="80" cy="10" r="7"/>
+    <circle cx="130" cy="24" r="4"/>
+    <circle cx="175" cy="14" r="6"/>
+    <circle cx="60" cy="46" r="3.5"/>
+  </g>
+
+  <!-- Leaf spray, top-right -->
+  <g>
+    <path d="M1600,0 C1520,10 1470,45 1450,95 C1560,90 1600,55 1600,0 Z" fill="#A9C88C" opacity="0.9"/>
+    <g stroke="#4A6339" stroke-width="3" fill="none" opacity="0.75">
+      <path d="M1590,40 C1540,60 1500,95 1470,140"/>
+    </g>
+    <g fill="#6B8E4E">
+      <ellipse cx="1545" cy="60" rx="20" ry="10" transform="rotate(-30 1545 60)"/>
+      <ellipse cx="1515" cy="88" rx="18" ry="9" transform="rotate(-25 1515 88)"/>
+      <ellipse cx="1490" cy="115" rx="16" ry="8" transform="rotate(-20 1490 115)"/>
+    </g>
+  </g>
+
+  <!-- Small orange accent leaf -->
+  <ellipse cx="905" cy="55" rx="17" ry="10" fill="#E08E45" transform="rotate(-18 905 55)"/>
+
+  <!-- Bottom-left leaf spray -->
+  <g>
+    <path d="M0,340 C10,280 45,245 100,232 C78,290 50,325 0,340 Z" fill="#A9C88C" opacity="0.9"/>
+    <g fill="#4A6339">
+      <ellipse cx="42" cy="290" rx="16" ry="8" transform="rotate(35 42 290)"/>
+      <ellipse cx="65" cy="265" rx="14" ry="7" transform="rotate(30 65 265)"/>
+    </g>
+  </g>
+
+  <!-- Small classification-scatter motif, bottom-right (ties to Project 2's KNN theme) -->
+  <g>
+    <line x1="1440" y1="120" x2="1440" y2="270" stroke="#6B8E4E" stroke-width="1.5" opacity="0.5"/>
+    <line x1="1440" y1="270" x2="1560" y2="270" stroke="#6B8E4E" stroke-width="1.5" opacity="0.5"/>
+    <g fill="#3F7DB3">
+      <circle cx="1460" cy="150" r="5"/>
+      <circle cx="1475" cy="175" r="5"/>
+      <circle cx="1455" cy="195" r="5"/>
+      <circle cx="1480" cy="210" r="5"/>
+    </g>
+    <g fill="#E08E45">
+      <circle cx="1520" cy="140" r="5"/>
+      <circle cx="1535" cy="165" r="5"/>
+      <circle cx="1545" cy="190" r="5"/>
+      <circle cx="1525" cy="215" r="5"/>
+    </g>
+    <path d="M1445,235 C1480,205 1510,185 1555,150" stroke="#3B4A2C" stroke-width="1.5" fill="none" stroke-dasharray="4 3" opacity="0.6"/>
+  </g>
+
+  <!-- HEADER -->
+  <text x="80" y="140" fill="#3B4A2C" font-size="50" font-weight="700">Data Classification Using AI</text>
+
+  <text x="80" y="182" fill="#4A5D38" font-size="21">
+    Project 2 of DecodeLabs' Industrial Training Kit
+  </text>
+
+  <!-- Author pill -->
+  <rect x="80" y="202" width="228" height="38" rx="19" fill="#F3EFE3" stroke="#A9C88C"/>
+  <circle cx="106" cy="221" r="8" fill="#6B8E4E"/>
+  <text x="124" y="227" fill="#3B4A2C" font-size="16" font-weight="600">Built by Hamna Shahid</text>
+
+  <!-- Footer -->
+  <text x="1520" y="320" fill="#4A5D38" font-size="15" text-anchor="end">DecodeLabs · Batch 2026</text>
+</svg>

@@ -1,0 +1,48 @@
+# Auto detect text files and normalize line endings to LF on checkout
+* text=auto eol=lf
+
+# --- Source code ---
+*.py    text diff=python
+*.md    text
+*.txt   text
+*.json  text
+*.yml   text
+*.yaml  text
+*.toml  text
+*.cfg   text
+*.ini   text
+
+# --- Windows-specific scripts should keep CRLF ---
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# --- Web / markup ---
+*.html  text diff=html
+*.css   text
+*.svg   text
+*.xml   text
+
+# --- Data files (avoid line-ending corruption in datasets) ---
+*.csv   text eol=lf
+*.tsv   text eol=lf
+
+# --- Jupyter notebooks: treat as text but avoid noisy diffs ---
+*.ipynb text -diff
+
+# --- Documentation ---
+*.pdf   binary
+*.docx  binary
+
+# --- Images and binaries: never touch, never diff as text ---
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.zip   binary
+*.gz    binary
+
+# --- Linguist hints (GitHub language stats) ---
+docs/*      linguist-documentation
+assets/*    linguist-vendored
+*.svg       linguist-vendored
